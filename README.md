@@ -3,17 +3,26 @@ Example project made with hapi server (backend) and vue (frontend)
 
 # backend
 install mongodb: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
+
 install node.js and npm
+
     sudo apt update
+    
     sudo apt install nodejs npm
+    
 cd server
+
 npm install
+
 node server.js
 
 # frontend
 cd client
+
 npm install -g @vue/cli
+
 npm install
+
 npm run build (change config/index.js to match IP from server)
 
 install nginx tp serve client and reverse proxy to api
